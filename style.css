@@ -1,3 +1,13 @@
+@font-face{
+    font-family:"comic";
+    src: url(Assets/Fonts/comic.otf);
+    
+}
+@font-face{
+    font-family:"roboto";
+    src: url(Assets/Fonts/roboto.ttf);
+}
+
 body{
     background-color: #245060;
     font-family: "roboto";
@@ -7,4 +17,14 @@ body{
 
 .text{
     font-size: 100px;
+}
+h1{
+    font-family: 'Athiti', sans-serif;
+    font-size :1em;
+    color:white;
+}
+h2{
+    font-family: 'Athiti', sans-serif;
+    font-size :1em;
+    color:white;
 }
