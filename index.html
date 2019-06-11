@@ -1,76 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-    <!--Font-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Athiti&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap-->
+    <title>animation</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- CSS-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>Animation Becode</title>
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet">
+    <!-- font-family: 'Fresca', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<!-- font-family: 'Pacifico', cursive; -->
+<link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+<!-- font-family: 'Sigmar One', cursive; -->
 </head>
-
-<body>
+<body class="container-fluid">
+    <section class="row one">
+        <div class="col-lg-4 row one">
+            <p class="ml-5 t1 tracking-in-expand1">BE</p>
+            <p class="ml-1 t2 tracking-in-expand2"> First</p>
+        </div>
+        <div class="offset-4 col-lg-4 row one">
+            <p class="text-center ml-5 t1 tracking-in-expand3">BE</p>
+            <p class="ml-1 text-center t2 tracking-in-expand4">Cool</p>
+        </div>
+    </section>
     <section>
-        <img src="image.svg" alt="logo BEcode" class="logo">
+        <div class="offset-4 col-lg-4 row center">
+            <p class="ml-5 t1  tracking-in-expand9">BE</p>
+            <p class="ml-1 t2 tracking-in-expand10">THE</p>
+            <p class="ml-1 t2 tracking-in-expand10">NEXT</p>
+        </div>
     </section>
-    <div class="container">
-        <section class="text">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h1 class="texte1">BE</h1>
-                    <h2 class="texte2">First</h2>
-                </div>
-                <div class="offset-4"></div>
-                <div class="col-lg-4">
-                    <h1 class="texte1">BE</h1>
-                    <h2 class="texte2">Cool</h2>
-                </div>
-                <div class="row">
-                    <div class="offset-4">
-                    </div>
-                    <div class="col-lg-4">
-                        <h1 class="texte1">BE</h1>
-                        <h2 class="texte2">The Next</h2>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <h1 class="texte1">BE</h1>
-                <h2>Change</h2>
-            </div>
-            <div class="row">
-                <h1 class="texte1">BE</h1>
-                <h2 class="texte2">Yourself</h2>
-            </div>
-
-
-            <div class="row">
-                <h1 class="final">Join</h1>
-                <h2>Us!</h2>
-            </div>
-            <div>
-                <h1 class="motivation">100%</h1>
-                <h2>Motivation</h2>
-            </div>
-    </div>
+    <section class="row one roll-in-left">
+        <img src="logo.png" class="col-lg-3" />
     </section>
-
+    <section class="row one">
+        <div class="col-lg-4 row">
+            <p class="ml-5 t1 tracking-in-expand5">BE</p>
+            <p class="ml-1 t2 tracking-in-expand6">Change</p>
+        </div>
+        <div class="col-lg-4 row">
+            <p class="t1 join tracking-in-expand11">Join</p>
+            <p class="t2 join tracking-in-expand12">US</p>
+        </div>
+        <div class="col-lg-4 row">
+            <p class="ml-5 t1 tracking-in-expand7">BE</p>
+            <p class="ml-1 t2 tracking-in-expand8">Yourself</p>
+        </div>
+                                            
+    </section>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
-
 </html>
