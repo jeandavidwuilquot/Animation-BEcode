@@ -7,7 +7,7 @@ body{
 }
 
 .join{
-    margin-left: 4m;
+    margin-left: 4em;
 }
 img{
     width: 60%;
@@ -16,7 +16,12 @@ img{
     margin-right: auto;
 }
 
-
+.marg{
+    margin-left: 4em;
+}
+.marg2{
+    margin-left: 6em;
+}
 .t1{
     font-family: 'Sigmar One', cursive;
     font-size: 2.5em;
